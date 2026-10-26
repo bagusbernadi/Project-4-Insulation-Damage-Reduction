@@ -2,13 +2,9 @@
 
 # Project 4: Before–After Defect Reduction (QCC Insulation Damage)
 
-**Status: Design (rancangan).**
+**Status: Selesai di branch `pilot-project-4` (menunggu review sebelum digabung ke `main`).**
 
-Halaman rancangan: https://bagusbernadi.github.io/Project-4-Insulation-Damage-Reduction/
-
-## Tujuan
-
-Membuktikan dengan data apakah penurunan insulation damage pada perakitan wire harness setelah perbaikan QCC benar-benar nyata, signifikan, dan stabil, sehingga perbaikan yang terbukti efektif dapat dijadikan standar dan nilai penghematannya dapat dilaporkan ke manajemen.
+Halaman rancangan dan Report: https://bagusbernadi.github.io/Project-4-Insulation-Damage-Reduction/
 
 | | |
 |---|---|
@@ -19,47 +15,59 @@ Membuktikan dengan data apakah penurunan insulation damage pada perakitan wire h
 
 ## 1. Problem
 
-Pertanyaan utama: apakah penurunan insulation damage setelah countermeasure QCC benar-benar signifikan dan stabil, dan berapa unit serta biaya yang dihemat per tahun?
-
-Pertanyaan ini dipecah menjadi 14 pertanyaan (9 prioritas utama) dalam 6 tema: before vs after, signifikansi, stabilitas, penyebab, dampak, dan validitas data. Daftar lengkap ada di halaman rancangan.
+Apakah penurunan insulation damage setelah countermeasure QCC benar-benar signifikan dan stabil, dan berapa unit serta biaya yang dihemat per tahun? Dipecah menjadi 14 pertanyaan (9 prioritas utama); jawabannya ada di tab Report pada halaman project.
 
 ## 2. Data
 
-- Sumber data: data simulasi buatan sendiri, dibuat oleh skrip `scripts/generate_data.py` (Versi: -; Tanggal dibuat: -). Pola kasus diadaptasi dari pengalaman QCC; data dan istilah disamarkan untuk menjaga privasi perusahaan.
-- 4 tabel: `production_daily`, `ng_log`, `countermeasure_log`, `dim_operator`.
-- Ukuran perkiraan: ±1.300 baris produksi harian dan ±2.500 baris catatan NG. Jumlah pasti diketahui setelah data dibuat.
-- Fakta yang sengaja ditanam (ground truth) dan 2–3% data kotor dipakai untuk menguji apakah analisis berhasil menemukannya.
-
-Belum dikerjakan.
+- Data simulasi buatan sendiri dengan seed tetap (`project/code/1-data-preparation/python/01_generate_data.py`); hasil identik setiap dijalankan.
+- 4 tabel: `production_daily` (1.254 baris bersih), `ng_log` (2.538), `countermeasure_log`, `dim_operator`.
+- Data kotor yang ditanam: 100 baris (2,7% produksi, 2,6% NG). Semuanya ditemukan dan ditangani (`project/docs/cleaning_log.md`).
 
 ## 3. Analysis
 
-Metode: defect rate per periode, z-test dua proporsi, 95% confidence interval selisih rate, jumlah sampel minimum, dan p-chart mingguan dengan garis tanggal tiap countermeasure.
-
-Belum dikerjakan.
+- Rate insulation damage: before **3,04%**, after **2,14%**, turun 29,8% relatif.
+- z-test dua proporsi: z = 6,69, p-value < 0,001; CI 95% selisih 0,65 sampai 1,16 poin.
+- Volume after naik 31% sehingga jumlah NG per bulan hanya turun 8%; hanya melihat jumlah NG menyesatkan.
+- p-chart mingguan: tidak ada minggu after di luar batas kendali.
+- Sumber: cara perakitan (ID-01) turun 0,54 poin, tepi bracket (ID-02) turun 0,35 poin.
+- Tiga perlakuan data kotor memberi kesimpulan sama. Cek silang: 348/348 pandas dan 66/66 Excel PASS.
 
 ## 4. Recommendation
 
-Belum dikerjakan.
+Jadikan ketiga countermeasure standar dan pantau dengan p-chart mingguan memakai batas after. Laporkan defect sebagai rate dengan p-value atau CI.
 
 ## 5. Impact
 
-Estimasi unit terselamatkan = (rate lama − rate baru) × volume; penghematan = unit terselamatkan × biaya per unit (asumsi tertulis). Semua angka dampak akan diberi label `estimated` / `simulated`.
+Estimated / simulated: sekitar 71 harness per bulan, 855 per tahun, penghematan Rp 128 juta per tahun pada biaya Rp 150.000 per harness (asumsi; rentang CI Rp 92–165 juta).
 
-Belum dikerjakan.
+## Batasan
 
-## Batasan yang sudah diketahui
+- Data simulasi: hasil membuktikan metode, bukan kondisi pabrik.
+- 4 dari 5 fakta yang ditanam ditemukan penuh; tanggal tiap countermeasure tidak semuanya terlihat (CM1 dan CM2 hanya berjarak 19 hari).
+- Before–after bukan eksperimen: operator makin terampil, volume naik, bracket berganti bersamaan.
+- Cek silang Excel dihitung ulang oleh LibreOffice, bukan Microsoft Excel. Dashboard belum di-deploy.
 
-- Data simulasi: hasil akhir membuktikan metode, bukan kondisi pabrik sebenarnya.
-- Before–after bukan eksperimen: operator makin terampil, volume naik, dan sumber bracket berganti pada periode yang sama.
-- z-test menganggap setiap unit independen; control chart dipakai sebagai pemeriksaan kedua.
-- QCC dimulai saat defect sedang tinggi, sehingga sebagian penurunan bisa terjadi dengan sendirinya (kembali ke rata-rata).
+## Menjalankan
+
+```
+pip install -r project/requirements.txt
+cd project/code/1-data-preparation/python && python 01_generate_data.py && python 02_clean_data.py && python 03_build_db.py
+cd ../../2-analysis/python && for s in 04 05 06 07 08; do python ${s}_*.py; done
+cd ../../3-presentation/python && for s in 09 10 11 12; do python ${s}_*.py; done
+streamlit run ../streamlit/app.py
+python design-and-report/src/build_report.py   # dari root repo
+```
 
 ## Struktur repository
 
 ```
-index.html   Halaman rancangan project (GitHub Pages)
-README.md    Dokumen ini
+index.html                 Pengalihan ke design-and-report/
+design-and-report/         Halaman Design dan Report (src/ berisi generator)
+project/
+  code/1-data-preparation  Generator, cleaning, database (python, sql)
+  code/2-analysis          Query, cek silang, uji statistik, dampak
+  code/3-presentation      Dashboard data, infografik, notebook, Streamlit
+  results/                 CSV hasil per tahap, crosscheck.xlsx, infografik, notebook
+  docs/                    Definisi, kamus data, log cleaning
+  data/                    ground_truth.json (data mentah dan bersih tidak di-commit)
 ```
-
-Struktur lengkap yang direncanakan (docs/, scripts/, sql/, notebooks/, dashboard/, outputs/) ada di bagian "Project Outputs" pada halaman rancangan.

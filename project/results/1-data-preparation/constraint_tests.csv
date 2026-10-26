@@ -1,0 +1,11 @@
+test,outcome
+ng_qty lebih besar dari input_qty,ditolak
+ok_qty + ng_qty tidak sama dengan input_qty,ditolak
+operator tidak ada di dim_operator,ditolak
+shift kosong,ditolak
+tipe harness tidak dikenal,ditolak
+tanggal di luar periode,ditolak
+baris ganda (primary key),ditolak
+kode defect salah ketik di ng_log,ditolak
+ng_log tanpa baris produksi induk,ditolak
+ng_id ganda,ditolak

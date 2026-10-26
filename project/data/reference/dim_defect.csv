@@ -1,0 +1,7 @@
+defect_code,description,cause_source,is_insulation_damage
+ID-01,Insulation damage akibat cara perakitan,Perakitan,True
+ID-02,Insulation damage akibat tepi bracket tajam,Tepi bracket,True
+ID-03,Insulation damage lain-lain,Lainnya,True
+OT-01,Terminal longgar,Lainnya,False
+OT-02,Salah posisi konektor,Lainnya,False
+OT-03,Taping kurang rapat,Lainnya,False

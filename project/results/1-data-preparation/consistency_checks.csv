@@ -1,0 +1,8 @@
+check,violations
+jumlah ng_qty = jumlah baris ng_log,0
+per baris produksi: ng_qty = jumlah ng_log,0
+operator di ng_log sama dengan operator baris produksi,0
+shift baris produksi sama dengan shift operator,0
+operator sudah bekerja saat tanggal produksi,0
+cause_source sesuai defect_code,0
+tanggal countermeasure berurutan dan di dalam periode,0

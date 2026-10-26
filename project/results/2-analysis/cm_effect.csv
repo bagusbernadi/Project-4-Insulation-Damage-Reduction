@@ -1,0 +1,4 @@
+cm_id,cm_name,start_date,series,changepoint_week,offset_days,within_7_days,lr_p_value
+1,Cek isolasi di Wire Cutting & Stripping,2026-07-15,Semua insulation damage,2026-07-13,-2,True,1.4253083026634434e-05
+2,Jig routing + SOP di assembly board,2026-08-03,ID-01 (cara perakitan),2026-07-13,-21,False,0.0007151876486008625
+3,Bracket in-house dengan deburring,2026-09-01,ID-02 (tepi bracket),2026-09-07,6,True,0.007106171797754835

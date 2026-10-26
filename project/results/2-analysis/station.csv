@@ -1,0 +1,15 @@
+period,station_found,ng_id
+after,Electrical Test,259
+after,Visual Inspection,219
+after,Taping,10
+after,Assembly Board,9
+after,Wire Cutting & Stripping,8
+before,Electrical Test,564
+before,Visual Inspection,478
+before,Taping,34
+before,Assembly Board,21
+transisi,Electrical Test,104
+transisi,Visual Inspection,78
+transisi,Wire Cutting & Stripping,2
+transisi,Taping,2
+transisi,Assembly Board,1

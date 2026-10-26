@@ -1,0 +1,46 @@
+{
+  "seed": 20261004,
+  "period": [
+    "2026-01-01",
+    "2026-10-31"
+  ],
+  "working_days": 209,
+  "clean_rows": {
+    "production_daily": 1254,
+    "ng_log": 2538
+  },
+  "clean_totals": {
+    "input": 66654,
+    "ng": 2538
+  },
+  "raw_rows": {
+    "production_daily": 1270,
+    "ng_log": 2564
+  },
+  "dirty_injected": {
+    "prod_ng_gt_input": 10,
+    "prod_shift_blank": 8,
+    "prod_duplicate": 8,
+    "prod_date_out_of_period": 8,
+    "ng_code_typo": 30,
+    "ng_shift_blank": 10,
+    "ng_duplicate": 20,
+    "ng_date_out_of_period": 6
+  },
+  "dirty_pct": {
+    "production_daily": 2.68,
+    "ng_log": 2.57
+  },
+  "facts": {
+    "1_rate_before_target": 0.03,
+    "1_rate_after_approx": 0.022,
+    "2_volume_after_vs_before": "sekitar +30%",
+    "3_countermeasure_dates": {
+      "Cek isolasi di Wire Cutting & Stripping": "2026-07-15",
+      "Jig routing + SOP di assembly board": "2026-08-03",
+      "Bracket in-house dengan deburring": "2026-09-01"
+    },
+    "4_biggest_drop": "ID-01 (Perakitan); ID-02 (Tepi bracket) turun setelah bracket in-house; Shift 2 lebih tinggi di before lalu mengecil",
+    "5_dirty": "2-3% data kotor: NG>input, tanggal di luar periode, baris ganda, kode salah ketik, shift kosong"
+  }
+}

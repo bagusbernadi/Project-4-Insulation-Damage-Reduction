@@ -1,0 +1,28 @@
+dim,val,period,input_qty,ng_id,rate_id
+harness_type,A,after,10720.0,235,0.021921641791044777
+harness_type,A,before,16131.0,487,0.030190316781352675
+harness_type,A,transisi,3087.0,84,0.027210884353741496
+harness_type,B,after,8158.0,143,0.01752880607992155
+harness_type,B,before,12728.0,336,0.026398491514770583
+harness_type,B,transisi,2416.0,60,0.024834437086092714
+harness_type,C,after,4766.0,127,0.026647083508182963
+harness_type,C,before,7222.0,274,0.03793962891165882
+harness_type,C,transisi,1426.0,43,0.030154277699859747
+shift,Shift 1,after,11908.0,267,0.02242190124286194
+shift,Shift 1,before,18038.0,521,0.028883468233728796
+shift,Shift 1,transisi,3455.0,79,0.022865412445730825
+shift,Shift 2,after,11736.0,238,0.020279481935923653
+shift,Shift 2,before,18043.0,576,0.03192373773762678
+shift,Shift 2,transisi,3474.0,108,0.031088082901554404
+shift_status,Shift 1 / baru,after,3198.0,62,0.01938711694809256
+shift_status,Shift 1 / baru,before,3748.0,118,0.03148345784418356
+shift_status,Shift 1 / baru,transisi,354.0,8,0.022598870056497175
+shift_status,Shift 1 / lama,after,8710.0,205,0.023536165327210104
+shift_status,Shift 1 / lama,before,14290.0,403,0.02820153953813856
+shift_status,Shift 1 / lama,transisi,3101.0,71,0.02289584005159626
+shift_status,Shift 2 / baru,after,6713.0,143,0.02130195143750931
+shift_status,Shift 2 / baru,before,7083.0,268,0.03783707468586757
+shift_status,Shift 2 / baru,transisi,1956.0,65,0.033231083844580775
+shift_status,Shift 2 / lama,after,5023.0,95,0.018913000199084214
+shift_status,Shift 2 / lama,before,10960.0,308,0.028102189781021896
+shift_status,Shift 2 / lama,transisi,1518.0,43,0.028326745718050064

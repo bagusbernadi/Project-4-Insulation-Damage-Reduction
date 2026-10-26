@@ -1,0 +1,349 @@
+check,key,sql,pandas,status
+period.input,before,36081.0,36081.0,PASS
+period.ng_all,before,1509.0,1509.0,PASS
+period.ng_id,before,1097.0,1097.0,PASS
+period.rate_id,before,0.0304038136415287,0.030403813641528783,PASS
+period.input,transisi,6929.0,6929.0,PASS
+period.ng_all,transisi,283.0,283.0,PASS
+period.ng_id,transisi,187.0,187.0,PASS
+period.rate_id,transisi,0.0269880213595035,0.026988021359503536,PASS
+period.input,after,23644.0,23644.0,PASS
+period.ng_all,after,746.0,746.0,PASS
+period.ng_id,after,505.0,505.0,PASS
+period.rate_id,after,0.0213584841820334,0.021358484182033496,PASS
+week.input,2025-12-29,275.0,275.0,PASS
+week.ng_id,2025-12-29,5.0,5.0,PASS
+week.input,2026-01-05,1361.0,1361.0,PASS
+week.ng_id,2026-01-05,42.0,42.0,PASS
+week.input,2026-01-12,1393.0,1393.0,PASS
+week.ng_id,2026-01-12,35.0,35.0,PASS
+week.input,2026-01-19,1435.0,1435.0,PASS
+week.ng_id,2026-01-19,30.0,30.0,PASS
+week.input,2026-01-26,1461.0,1461.0,PASS
+week.ng_id,2026-01-26,35.0,35.0,PASS
+week.input,2026-02-02,1467.0,1467.0,PASS
+week.ng_id,2026-02-02,48.0,48.0,PASS
+week.input,2026-02-09,1509.0,1509.0,PASS
+week.ng_id,2026-02-09,48.0,48.0,PASS
+week.input,2026-02-16,1414.0,1414.0,PASS
+week.ng_id,2026-02-16,57.0,57.0,PASS
+week.input,2026-02-23,1413.0,1413.0,PASS
+week.ng_id,2026-02-23,45.0,45.0,PASS
+week.input,2026-03-02,1395.0,1395.0,PASS
+week.ng_id,2026-03-02,46.0,46.0,PASS
+week.input,2026-03-09,1431.0,1431.0,PASS
+week.ng_id,2026-03-09,30.0,30.0,PASS
+week.input,2026-03-16,827.0,827.0,PASS
+week.ng_id,2026-03-16,41.0,41.0,PASS
+week.input,2026-03-23,1434.0,1434.0,PASS
+week.ng_id,2026-03-23,38.0,38.0,PASS
+week.input,2026-03-30,1123.0,1123.0,PASS
+week.ng_id,2026-03-30,31.0,31.0,PASS
+week.input,2026-04-06,1470.0,1470.0,PASS
+week.ng_id,2026-04-06,56.0,56.0,PASS
+week.input,2026-04-13,1488.0,1488.0,PASS
+week.ng_id,2026-04-13,37.0,37.0,PASS
+week.input,2026-04-20,1419.0,1419.0,PASS
+week.ng_id,2026-04-20,56.0,56.0,PASS
+week.input,2026-04-27,1150.0,1150.0,PASS
+week.ng_id,2026-04-27,44.0,44.0,PASS
+week.input,2026-05-04,1667.0,1667.0,PASS
+week.ng_id,2026-05-04,57.0,57.0,PASS
+week.input,2026-05-11,1316.0,1316.0,PASS
+week.ng_id,2026-05-11,32.0,32.0,PASS
+week.input,2026-05-18,1586.0,1586.0,PASS
+week.ng_id,2026-05-18,41.0,41.0,PASS
+week.input,2026-05-25,1658.0,1658.0,PASS
+week.ng_id,2026-05-25,51.0,51.0,PASS
+week.input,2026-06-01,1184.0,1184.0,PASS
+week.ng_id,2026-06-01,34.0,34.0,PASS
+week.input,2026-06-08,1532.0,1532.0,PASS
+week.ng_id,2026-06-08,53.0,53.0,PASS
+week.input,2026-06-15,1513.0,1513.0,PASS
+week.ng_id,2026-06-15,43.0,43.0,PASS
+week.input,2026-06-22,1535.0,1535.0,PASS
+week.ng_id,2026-06-22,41.0,41.0,PASS
+week.input,2026-06-29,1601.0,1601.0,PASS
+week.ng_id,2026-06-29,56.0,56.0,PASS
+week.input,2026-07-06,1500.0,1500.0,PASS
+week.ng_id,2026-07-06,54.0,54.0,PASS
+week.input,2026-07-13,1540.0,1540.0,PASS
+week.ng_id,2026-07-13,32.0,32.0,PASS
+week.input,2026-07-20,1438.0,1438.0,PASS
+week.ng_id,2026-07-20,36.0,36.0,PASS
+week.input,2026-07-27,1475.0,1475.0,PASS
+week.ng_id,2026-07-27,30.0,30.0,PASS
+week.input,2026-08-03,1957.0,1957.0,PASS
+week.ng_id,2026-08-03,47.0,47.0,PASS
+week.input,2026-08-10,1923.0,1923.0,PASS
+week.ng_id,2026-08-10,45.0,45.0,PASS
+week.input,2026-08-17,1476.0,1476.0,PASS
+week.ng_id,2026-08-17,37.0,37.0,PASS
+week.input,2026-08-24,2013.0,2013.0,PASS
+week.ng_id,2026-08-24,46.0,46.0,PASS
+week.input,2026-08-31,1819.0,1819.0,PASS
+week.ng_id,2026-08-31,47.0,47.0,PASS
+week.input,2026-09-07,1748.0,1748.0,PASS
+week.ng_id,2026-09-07,41.0,41.0,PASS
+week.input,2026-09-14,1810.0,1810.0,PASS
+week.ng_id,2026-09-14,27.0,27.0,PASS
+week.input,2026-09-21,1760.0,1760.0,PASS
+week.ng_id,2026-09-21,34.0,34.0,PASS
+week.input,2026-09-28,1819.0,1819.0,PASS
+week.ng_id,2026-09-28,38.0,38.0,PASS
+week.input,2026-10-05,1846.0,1846.0,PASS
+week.ng_id,2026-10-05,42.0,42.0,PASS
+week.input,2026-10-12,1866.0,1866.0,PASS
+week.ng_id,2026-10-12,31.0,31.0,PASS
+week.input,2026-10-19,1817.0,1817.0,PASS
+week.ng_id,2026-10-19,37.0,37.0,PASS
+week.input,2026-10-26,1790.0,1790.0,PASS
+week.ng_id,2026-10-26,33.0,33.0,PASS
+month.input,2026-01,5925.0,5925.0,PASS
+month.ng_id,2026-01,147.0,147.0,PASS
+month.input,2026-02,5803.0,5803.0,PASS
+month.ng_id,2026-02,198.0,198.0,PASS
+month.input,2026-03,5644.0,5644.0,PASS
+month.ng_id,2026-03,168.0,168.0,PASS
+month.input,2026-04,6093.0,6093.0,PASS
+month.ng_id,2026-04,211.0,211.0,PASS
+month.input,2026-05,6227.0,6227.0,PASS
+month.ng_id,2026-05,181.0,181.0,PASS
+month.input,2026-06,6389.0,6389.0,PASS
+month.ng_id,2026-06,192.0,192.0,PASS
+month.input,2026-07,6929.0,6929.0,PASS
+month.ng_id,2026-07,187.0,187.0,PASS
+month.input,2026-08,7773.0,7773.0,PASS
+month.ng_id,2026-08,188.0,188.0,PASS
+month.input,2026-09,7801.0,7801.0,PASS
+month.ng_id,2026-09,157.0,157.0,PASS
+month.input,2026-10,8070.0,8070.0,PASS
+month.ng_id,2026-10,160.0,160.0,PASS
+dim.harness_type.input,A|after,10720.0,10720.0,PASS
+dim.harness_type.ng_id,A|after,235.0,235.0,PASS
+dim.harness_type.input,A|before,16131.0,16131.0,PASS
+dim.harness_type.ng_id,A|before,487.0,487.0,PASS
+dim.harness_type.input,A|transisi,3087.0,3087.0,PASS
+dim.harness_type.ng_id,A|transisi,84.0,84.0,PASS
+dim.harness_type.input,B|after,8158.0,8158.0,PASS
+dim.harness_type.ng_id,B|after,143.0,143.0,PASS
+dim.harness_type.input,B|before,12728.0,12728.0,PASS
+dim.harness_type.ng_id,B|before,336.0,336.0,PASS
+dim.harness_type.input,B|transisi,2416.0,2416.0,PASS
+dim.harness_type.ng_id,B|transisi,60.0,60.0,PASS
+dim.harness_type.input,C|after,4766.0,4766.0,PASS
+dim.harness_type.ng_id,C|after,127.0,127.0,PASS
+dim.harness_type.input,C|before,7222.0,7222.0,PASS
+dim.harness_type.ng_id,C|before,274.0,274.0,PASS
+dim.harness_type.input,C|transisi,1426.0,1426.0,PASS
+dim.harness_type.ng_id,C|transisi,43.0,43.0,PASS
+dim.shift.input,Shift 1|after,11908.0,11908.0,PASS
+dim.shift.ng_id,Shift 1|after,267.0,267.0,PASS
+dim.shift.input,Shift 1|before,18038.0,18038.0,PASS
+dim.shift.ng_id,Shift 1|before,521.0,521.0,PASS
+dim.shift.input,Shift 1|transisi,3455.0,3455.0,PASS
+dim.shift.ng_id,Shift 1|transisi,79.0,79.0,PASS
+dim.shift.input,Shift 2|after,11736.0,11736.0,PASS
+dim.shift.ng_id,Shift 2|after,238.0,238.0,PASS
+dim.shift.input,Shift 2|before,18043.0,18043.0,PASS
+dim.shift.ng_id,Shift 2|before,576.0,576.0,PASS
+dim.shift.input,Shift 2|transisi,3474.0,3474.0,PASS
+dim.shift.ng_id,Shift 2|transisi,108.0,108.0,PASS
+dim.shift_status.input,Shift 1 / baru|after,3198.0,3198.0,PASS
+dim.shift_status.ng_id,Shift 1 / baru|after,62.0,62.0,PASS
+dim.shift_status.input,Shift 1 / baru|before,3748.0,3748.0,PASS
+dim.shift_status.ng_id,Shift 1 / baru|before,118.0,118.0,PASS
+dim.shift_status.input,Shift 1 / baru|transisi,354.0,354.0,PASS
+dim.shift_status.ng_id,Shift 1 / baru|transisi,8.0,8.0,PASS
+dim.shift_status.input,Shift 1 / lama|after,8710.0,8710.0,PASS
+dim.shift_status.ng_id,Shift 1 / lama|after,205.0,205.0,PASS
+dim.shift_status.input,Shift 1 / lama|before,14290.0,14290.0,PASS
+dim.shift_status.ng_id,Shift 1 / lama|before,403.0,403.0,PASS
+dim.shift_status.input,Shift 1 / lama|transisi,3101.0,3101.0,PASS
+dim.shift_status.ng_id,Shift 1 / lama|transisi,71.0,71.0,PASS
+dim.shift_status.input,Shift 2 / baru|after,6713.0,6713.0,PASS
+dim.shift_status.ng_id,Shift 2 / baru|after,143.0,143.0,PASS
+dim.shift_status.input,Shift 2 / baru|before,7083.0,7083.0,PASS
+dim.shift_status.ng_id,Shift 2 / baru|before,268.0,268.0,PASS
+dim.shift_status.input,Shift 2 / baru|transisi,1956.0,1956.0,PASS
+dim.shift_status.ng_id,Shift 2 / baru|transisi,65.0,65.0,PASS
+dim.shift_status.input,Shift 2 / lama|after,5023.0,5023.0,PASS
+dim.shift_status.ng_id,Shift 2 / lama|after,95.0,95.0,PASS
+dim.shift_status.input,Shift 2 / lama|before,10960.0,10960.0,PASS
+dim.shift_status.ng_id,Shift 2 / lama|before,308.0,308.0,PASS
+dim.shift_status.input,Shift 2 / lama|transisi,1518.0,1518.0,PASS
+dim.shift_status.ng_id,Shift 2 / lama|transisi,43.0,43.0,PASS
+cause.ng,ID-01|after,272.0,272.0,PASS
+cause.rate,ID-01|after,0.0115039756386398,0.011503975638639825,PASS
+cause.ng,ID-01|before,609.0,609.0,PASS
+cause.rate,ID-01|before,0.0168786896150328,0.016878689615032843,PASS
+cause.ng,ID-01|transisi,104.0,104.0,PASS
+cause.rate,ID-01|transisi,0.0150093808630394,0.0150093808630394,PASS
+cause.ng,ID-02|after,193.0,193.0,PASS
+cause.rate,ID-02|after,0.0081627474200642,0.008162747420064287,PASS
+cause.ng,ID-02|before,421.0,421.0,PASS
+cause.rate,ID-02|before,0.0116681910146614,0.011668191014661456,PASS
+cause.ng,ID-02|transisi,71.0,71.0,PASS
+cause.rate,ID-02|transisi,0.0102467888584211,0.010246788858421129,PASS
+cause.ng,ID-03|after,40.0,40.0,PASS
+cause.rate,ID-03|after,0.0016917611233293,0.001691761123329386,PASS
+cause.ng,ID-03|before,67.0,67.0,PASS
+cause.rate,ID-03|before,0.0018569330118344,0.0018569330118344835,PASS
+cause.ng,ID-03|transisi,12.0,12.0,PASS
+cause.rate,ID-03|transisi,0.001731851638043,0.0017318516380430077,PASS
+cause.ng,OT-01|after,107.0,107.0,PASS
+cause.rate,OT-01|after,0.0045254610049061,0.004525461004906107,PASS
+cause.ng,OT-01|before,190.0,190.0,PASS
+cause.rate,OT-01|before,0.0052659294365455,0.0052659294365455505,PASS
+cause.ng,OT-01|transisi,47.0,47.0,PASS
+cause.rate,OT-01|transisi,0.0067830855823351,0.006783085582335114,PASS
+cause.ng,OT-02|after,77.0,77.0,PASS
+cause.rate,OT-02|after,0.003256640162409,0.003256640162409068,PASS
+cause.ng,OT-02|before,136.0,136.0,PASS
+cause.rate,OT-02|before,0.0037692968598431,0.003769296859843131,PASS
+cause.ng,OT-02|transisi,25.0,25.0,PASS
+cause.rate,OT-02|transisi,0.0036080242459229,0.0036080242459229327,PASS
+cause.ng,OT-03|after,57.0,57.0,PASS
+cause.rate,OT-03|after,0.0024107596007443,0.002410759600744375,PASS
+cause.ng,OT-03|before,86.0,86.0,PASS
+cause.rate,OT-03|before,0.002383525955489,0.0023835259554890386,PASS
+cause.ng,OT-03|transisi,24.0,24.0,PASS
+cause.rate,OT-03|transisi,0.003463703276086,0.0034637032760860154,PASS
+cause_month.ng,ID-01|2026-01,91.0,91.0,PASS
+cause_month.rate,ID-01|2026-01,0.0153586497890295,0.015358649789029536,PASS
+cause_month.ng,ID-01|2026-02,113.0,113.0,PASS
+cause_month.rate,ID-01|2026-02,0.019472686541444,0.01947268654144408,PASS
+cause_month.ng,ID-01|2026-03,92.0,92.0,PASS
+cause_month.rate,ID-01|2026-03,0.0163004961020552,0.01630049610205528,PASS
+cause_month.ng,ID-01|2026-04,112.0,112.0,PASS
+cause_month.rate,ID-01|2026-04,0.0183817495486624,0.0183817495486624,PASS
+cause_month.ng,ID-01|2026-05,102.0,102.0,PASS
+cause_month.rate,ID-01|2026-05,0.0163802794282961,0.01638027942829613,PASS
+cause_month.ng,ID-01|2026-06,99.0,99.0,PASS
+cause_month.rate,ID-01|2026-06,0.0154953826889967,0.015495382688996712,PASS
+cause_month.ng,ID-01|2026-07,104.0,104.0,PASS
+cause_month.rate,ID-01|2026-07,0.0150093808630394,0.0150093808630394,PASS
+cause_month.ng,ID-01|2026-08,95.0,95.0,PASS
+cause_month.rate,ID-01|2026-08,0.0122217933873665,0.012221793387366526,PASS
+cause_month.ng,ID-01|2026-09,89.0,89.0,PASS
+cause_month.rate,ID-01|2026-09,0.0114087937443917,0.011408793744391745,PASS
+cause_month.ng,ID-01|2026-10,88.0,88.0,PASS
+cause_month.rate,ID-01|2026-10,0.01090458488228,0.01090458488228005,PASS
+cause_month.ng,ID-02|2026-01,48.0,48.0,PASS
+cause_month.rate,ID-02|2026-01,0.0081012658227848,0.00810126582278481,PASS
+cause_month.ng,ID-02|2026-02,75.0,75.0,PASS
+cause_month.rate,ID-02|2026-02,0.0129243494744097,0.012924349474409787,PASS
+cause_month.ng,ID-02|2026-03,66.0,66.0,PASS
+cause_month.rate,ID-02|2026-03,0.01169383416017,0.011693834160170093,PASS
+cause_month.ng,ID-02|2026-04,81.0,81.0,PASS
+cause_month.rate,ID-02|2026-04,0.0132939438700147,0.013293943870014771,PASS
+cause_month.ng,ID-02|2026-05,71.0,71.0,PASS
+cause_month.rate,ID-02|2026-05,0.0114019592098924,0.011401959209892404,PASS
+cause_month.ng,ID-02|2026-06,80.0,80.0,PASS
+cause_month.rate,ID-02|2026-06,0.0125215213648458,0.01252152136484583,PASS
+cause_month.ng,ID-02|2026-07,71.0,71.0,PASS
+cause_month.rate,ID-02|2026-07,0.0102467888584211,0.010246788858421129,PASS
+cause_month.ng,ID-02|2026-08,78.0,78.0,PASS
+cause_month.rate,ID-02|2026-08,0.0100347356233114,0.010034735623311463,PASS
+cause_month.ng,ID-02|2026-09,52.0,52.0,PASS
+cause_month.rate,ID-02|2026-09,0.0066658120753749,0.006665812075374952,PASS
+cause_month.ng,ID-02|2026-10,63.0,63.0,PASS
+cause_month.rate,ID-02|2026-10,0.0078066914498141,0.007806691449814126,PASS
+cause_month.ng,ID-03|2026-01,8.0,8.0,PASS
+cause_month.rate,ID-03|2026-01,0.0013502109704641,0.001350210970464135,PASS
+cause_month.ng,ID-03|2026-02,10.0,10.0,PASS
+cause_month.rate,ID-03|2026-02,0.0017232465965879,0.0017232465965879718,PASS
+cause_month.ng,ID-03|2026-03,10.0,10.0,PASS
+cause_month.rate,ID-03|2026-03,0.0017717930545712,0.001771793054571226,PASS
+cause_month.ng,ID-03|2026-04,18.0,18.0,PASS
+cause_month.rate,ID-03|2026-04,0.0029542097488921,0.0029542097488921715,PASS
+cause_month.ng,ID-03|2026-05,8.0,8.0,PASS
+cause_month.rate,ID-03|2026-05,0.0012847277982977,0.0012847277982977357,PASS
+cause_month.ng,ID-03|2026-06,13.0,13.0,PASS
+cause_month.rate,ID-03|2026-06,0.0020347472217874,0.0020347472217874473,PASS
+cause_month.ng,ID-03|2026-07,12.0,12.0,PASS
+cause_month.rate,ID-03|2026-07,0.001731851638043,0.0017318516380430077,PASS
+cause_month.ng,ID-03|2026-08,15.0,15.0,PASS
+cause_month.rate,ID-03|2026-08,0.0019297568506368,0.0019297568506368198,PASS
+cause_month.ng,ID-03|2026-09,16.0,16.0,PASS
+cause_month.rate,ID-03|2026-09,0.0020510191001153,0.00205101910011537,PASS
+cause_month.ng,ID-03|2026-10,9.0,9.0,PASS
+cause_month.rate,ID-03|2026-10,0.0011152416356877,0.0011152416356877324,PASS
+cause_month.ng,OT-01|2026-01,32.0,32.0,PASS
+cause_month.rate,OT-01|2026-01,0.0054008438818565,0.00540084388185654,PASS
+cause_month.ng,OT-01|2026-02,37.0,37.0,PASS
+cause_month.rate,OT-01|2026-02,0.0063760124073754,0.006376012407375496,PASS
+cause_month.ng,OT-01|2026-03,25.0,25.0,PASS
+cause_month.rate,OT-01|2026-03,0.004429482636428,0.004429482636428065,PASS
+cause_month.ng,OT-01|2026-04,31.0,31.0,PASS
+cause_month.rate,OT-01|2026-04,0.0050878056786476,0.0050878056786476285,PASS
+cause_month.ng,OT-01|2026-05,31.0,31.0,PASS
+cause_month.rate,OT-01|2026-05,0.0049783202184037,0.004978320218403725,PASS
+cause_month.ng,OT-01|2026-06,34.0,34.0,PASS
+cause_month.rate,OT-01|2026-06,0.0053216465800594,0.005321646580059477,PASS
+cause_month.ng,OT-01|2026-07,47.0,47.0,PASS
+cause_month.rate,OT-01|2026-07,0.0067830855823351,0.006783085582335114,PASS
+cause_month.ng,OT-01|2026-08,37.0,37.0,PASS
+cause_month.rate,OT-01|2026-08,0.0047600668982374,0.004760066898237489,PASS
+cause_month.ng,OT-01|2026-09,29.0,29.0,PASS
+cause_month.rate,OT-01|2026-09,0.0037174721189591,0.0037174721189591076,PASS
+cause_month.ng,OT-01|2026-10,41.0,41.0,PASS
+cause_month.rate,OT-01|2026-10,0.0050805452292441,0.005080545229244114,PASS
+cause_month.ng,OT-02|2026-01,21.0,21.0,PASS
+cause_month.rate,OT-02|2026-01,0.0035443037974683,0.0035443037974683543,PASS
+cause_month.ng,OT-02|2026-02,24.0,24.0,PASS
+cause_month.rate,OT-02|2026-02,0.0041357918318111,0.004135791831811132,PASS
+cause_month.ng,OT-02|2026-03,20.0,20.0,PASS
+cause_month.rate,OT-02|2026-03,0.0035435861091424,0.003543586109142452,PASS
+cause_month.ng,OT-02|2026-04,15.0,15.0,PASS
+cause_month.rate,OT-02|2026-04,0.0024618414574101,0.002461841457410143,PASS
+cause_month.ng,OT-02|2026-05,34.0,34.0,PASS
+cause_month.rate,OT-02|2026-05,0.0054600931427653,0.005460093142765377,PASS
+cause_month.ng,OT-02|2026-06,22.0,22.0,PASS
+cause_month.rate,OT-02|2026-06,0.0034434183753326,0.003443418375332603,PASS
+cause_month.ng,OT-02|2026-07,25.0,25.0,PASS
+cause_month.rate,OT-02|2026-07,0.0036080242459229,0.0036080242459229327,PASS
+cause_month.ng,OT-02|2026-08,27.0,27.0,PASS
+cause_month.rate,OT-02|2026-08,0.0034735623311462,0.0034735623311462757,PASS
+cause_month.ng,OT-02|2026-09,25.0,25.0,PASS
+cause_month.rate,OT-02|2026-09,0.0032047173439302,0.0032047173439302655,PASS
+cause_month.ng,OT-02|2026-10,25.0,25.0,PASS
+cause_month.rate,OT-02|2026-10,0.0030978934324659,0.0030978934324659233,PASS
+cause_month.ng,OT-03|2026-01,18.0,18.0,PASS
+cause_month.rate,OT-03|2026-01,0.0030379746835443,0.0030379746835443038,PASS
+cause_month.ng,OT-03|2026-02,12.0,12.0,PASS
+cause_month.rate,OT-03|2026-02,0.0020678959159055,0.002067895915905566,PASS
+cause_month.ng,OT-03|2026-03,18.0,18.0,PASS
+cause_month.rate,OT-03|2026-03,0.0031892274982282,0.0031892274982282067,PASS
+cause_month.ng,OT-03|2026-04,14.0,14.0,PASS
+cause_month.rate,OT-03|2026-04,0.0022977186935828,0.0022977186935828,PASS
+cause_month.ng,OT-03|2026-05,10.0,10.0,PASS
+cause_month.rate,OT-03|2026-05,0.0016059097478721,0.0016059097478721696,PASS
+cause_month.ng,OT-03|2026-06,14.0,14.0,PASS
+cause_month.rate,OT-03|2026-06,0.002191266238848,0.0021912662388480202,PASS
+cause_month.ng,OT-03|2026-07,24.0,24.0,PASS
+cause_month.rate,OT-03|2026-07,0.003463703276086,0.0034637032760860154,PASS
+cause_month.ng,OT-03|2026-08,20.0,20.0,PASS
+cause_month.rate,OT-03|2026-08,0.0025730091341824,0.0025730091341824263,PASS
+cause_month.ng,OT-03|2026-09,19.0,19.0,PASS
+cause_month.rate,OT-03|2026-09,0.002435585181387,0.002435585181387002,PASS
+cause_month.ng,OT-03|2026-10,18.0,18.0,PASS
+cause_month.rate,OT-03|2026-10,0.0022304832713754,0.0022304832713754648,PASS
+bracket.ng_id02,after|In-house,99.0,99.0,PASS
+bracket.ng_id02,after|Supplier,94.0,94.0,PASS
+bracket.ng_id02,before|Supplier,421.0,421.0,PASS
+bracket.ng_id02,transisi|Supplier,71.0,71.0,PASS
+station.ng_id,after|Electrical Test,259.0,259.0,PASS
+station.ng_id,after|Visual Inspection,219.0,219.0,PASS
+station.ng_id,after|Taping,10.0,10.0,PASS
+station.ng_id,after|Assembly Board,9.0,9.0,PASS
+station.ng_id,after|Wire Cutting & Stripping,8.0,8.0,PASS
+station.ng_id,before|Electrical Test,564.0,564.0,PASS
+station.ng_id,before|Visual Inspection,478.0,478.0,PASS
+station.ng_id,before|Taping,34.0,34.0,PASS
+station.ng_id,before|Assembly Board,21.0,21.0,PASS
+station.ng_id,transisi|Electrical Test,104.0,104.0,PASS
+station.ng_id,transisi|Visual Inspection,78.0,78.0,PASS
+station.ng_id,transisi|Wire Cutting & Stripping,2.0,2.0,PASS
+station.ng_id,transisi|Taping,2.0,2.0,PASS
+station.ng_id,transisi|Assembly Board,1.0,1.0,PASS

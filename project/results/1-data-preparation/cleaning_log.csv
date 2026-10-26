@@ -1,0 +1,10 @@
+rule,table,issue,rows_found,decision,rows_dropped,rows_fixed
+N1,ng_log,tanggal di luar Jan-Okt 2026,6,dibuang,6,0
+N2,ng_log,baris ganda (semua kolom sama),20,"dibuang, simpan satu",20,0
+N3,ng_log,"kode defect salah ketik (ID-1, id-01, ID01, ID-O1, ...)",30,diperbaiki ke format ID-0n,0,30
+N4,ng_log,shift kosong,10,diisi dari shift operator (dim_operator),0,10
+P1,production_daily,tanggal di luar Jan-Okt 2026,8,dibuang,8,0
+P2,production_daily,baris ganda (semua kolom sama),8,"dibuang, simpan satu",8,0
+P3,production_daily,shift kosong,8,diisi dari shift operator (dim_operator),0,8
+P4,production_daily,ng_qty lebih besar dari input_qty,10,ng_qty dihitung ulang dari jumlah baris ng_log (ok_qty + ng_qty = input_qty terpenuhi),0,10
+P5,production_daily,ng_qty tidak sama dengan jumlah baris ng_log atau ok+ng tidak sama dengan input (setelah P4),0,tidak ada sisa,0,0

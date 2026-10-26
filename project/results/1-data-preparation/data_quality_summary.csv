@@ -1,0 +1,4 @@
+table,raw_rows,bad_rows,bad_pct,clean_rows
+production_daily,1270,34,2.68,1254
+ng_log,2564,66,2.57,2538
+total,3834,100,2.61,3792

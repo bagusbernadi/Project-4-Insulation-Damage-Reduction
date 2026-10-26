@@ -1,0 +1,6 @@
+fact_no,fakta,ditanam,ditemukan,hasil
+1,"Rate insulation damage turun dari sekitar 3,0% menjadi sekitar 2,2% dan signifikan","before 3.0%, after sekitar 2.2%","before 3.04%, after 2.14%, p = 2.2e-11",Sesuai
+2,"Volume produksi after sekitar 30% lebih tinggi, sehingga jumlah NG turun lebih sedikit dari rate",volume after sekitar +30%,volume per bulan +31.1%; NG per bulan -7.9%; rate -29.8%,Sesuai
+3,Tiga countermeasure dipasang bertahap; tiap tanggal menimbulkan penurunan yang terlihat (selisih paling lama 1 minggu),"CM1 2026-07-15, CM2 2026-08-03, CM3 2026-09-01",titik ubah mingguan: CM1 -2 hari; CM2 -21 hari; CM3 +6 hari,Sebagian
+4,Penurunan terbesar pada ID-01 (perakitan); ID-02 (tepi bracket) turun setelah bracket in-house; Shift 2 lebih tinggi di before lalu selisihnya mengecil,ID-01 turun paling besar; ID-02 turun setelah CM3; selisih Shift 2 vs Shift 1 mengecil,turun ID-01 0.54 poin vs ID-02 0.35 poin; ID-02 90 hari sebelum vs setelah CM3 p = 0.00; selisih Shift 2 +0.30 poin (before) menjadi -0.21 (after),Sesuai
+5,"Sekitar 2-3% data kotor disisipkan (NG > input, tanggal di luar periode, baris ganda, kode salah ketik, shift kosong)","100 baris bermasalah (2.68% production, 2.57% ng_log)",100 baris ditemukan dan ditangani; baris bersih 1254 + 2538 sama dengan data asal,Sesuai
