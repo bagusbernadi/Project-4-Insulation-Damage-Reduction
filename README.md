@@ -2,7 +2,7 @@
 
 # Project 4: Before–After Defect Reduction (QCC Insulation Damage)
 
-**Status: Selesai di branch `pilot-project-4` (menunggu review sebelum digabung ke `main`).**
+**Status: Selesai dan digabung ke `main`.**
 
 Halaman rancangan dan Report: https://bagusbernadi.github.io/Project-4-Insulation-Damage-Reduction/
 
